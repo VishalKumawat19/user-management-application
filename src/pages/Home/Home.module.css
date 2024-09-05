@@ -1,0 +1,98 @@
+.container {
+  max-width: 1000px;
+  margin: 0px auto  ;
+  /* padding: 5px; */
+}
+
+.heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.addUserButton {
+  display: block;
+  width: 200px;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.addUserButton:hover {
+  background-color: #218838;
+  
+}
+
+.error {
+  color: #dc3545;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto; /* For responsive table */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHeader {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #0056b3;
+}
+
+.tableCell {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
+
+.editButton {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 4px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745; /* Green background color */
+  color: #ffffff; /* White text color */
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+}
+
+.editButton:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.editButton:active {
+  background-color: #1e7e34; /* Even darker green on click */
+}
